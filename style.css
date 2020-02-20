@@ -1,0 +1,196 @@
+body,
+html {
+    margin: 0em;
+    padding: 0em;
+    border-width: 0px;
+    background-color: #007ACC;
+    height: 100%
+}
+
+#app {
+    margin: 0em;
+    padding: 0em;
+    border-width: 0px;
+    /* font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; */
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    /* color: rgba(225, 225, 225, .80); */
+    background-color: #007ACC;
+    font-size: 2em;
+    text-align: center;
+    width: 100%;
+}
+
+img {
+    vertical-align: top;
+}
+
+#bottomlayer {
+    margin: 0em;
+    padding: 0em;
+    border-width: 0px;
+    width: 100%;
+    font-size: 3em;
+    background-color: #007ACC;
+}
+
+.bottomparallax {
+    background-image: url("VSCODE.jpg");
+    width: 100%;
+    background-attachment: fixed;
+    background-position-x: center;
+    background-position-y: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+/* .topparallax1 {
+    background-image: url("theclub.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+} */
+
+
+/* .topparallax2 {
+    background-image: url("LDUBTAT.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+} */
+
+#bigtitle {
+    background-color: rgba(0, 0, 0, 0);
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: .1em;
+    height: 8em;
+    width: 100%;
+    color: #8278B7;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1E1E1E;
+    width: 100%;
+    font-size: .5em;
+    color: #8278B7;
+}
+
+a:link {
+    text-decoration: none;
+    color: #8278B7;
+}
+
+a:visited {
+    color: #53BAB9;
+}
+
+a:hover {
+    color: #007ACC;
+    /* text-decoration- */
+}
+
+#space {
+    margin: 0em;
+    padding: 0em;
+    border-width: 0px;
+    height: 9em;
+}
+
+#schedule {
+    margin: 0em;
+    padding: 0em;
+    border-width: 0px;
+    background-color: #1E1E1E;
+    color: #8278B7;
+}
+
+
+#calendar {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+img {
+    height: 7em;
+}
+
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 16px;
+    /* box-shadow: inset 5 5 5 5px #999; */
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset .6px 0px 2px .6px #353535;
+    background: #1E1E1E;
+    /* border-color: #444; */
+    /* border-width: 50px; */
+    /* border-radius: 10px; */
+
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #494949;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #4F4F4F;
+  }
+
+
+
+#webmaster {
+    font-size: .2em;
+    color: white;
+    background-color: #007ACC;
+}
+
+
+/* Tablet: */
+
+@media only screen and (max-width:95em) {
+    #bigtitle {
+        font-size: 1em;
+    }
+    nav {
+        font-size: .3em;
+    }
+    #schedule {
+        font-size: .3em;
+    }
+}
+
+
+/* CellPhone: */
+
+@media only screen and (max-width:50em) {
+    .bottomparallax{
+        background-size: 100%;
+    }
+    #bigtitle {
+        font-size: .5em;
+    }
+    nav {
+        font-size: .15em;
+    }
+    #schedule {
+        font-size: .25em;
+    }
+}
