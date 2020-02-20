@@ -44,14 +44,15 @@ img {
 }
 
 
-/* .topparallax1 {
-    background-image: url("theclub.jpg");
-    height: 100%;
+.topparallax1 {
+    background-image: url("WHITEOUT.jpg");
+    width: 100%;
     background-attachment: fixed;
     background-position-x: center;
+    background-position-y: 100%;
     background-repeat: no-repeat;
-    background-size: 90%;
-} */
+    background-size: 100%;
+}
 
 
 /* .topparallax2 {
@@ -75,6 +76,8 @@ img {
 }
 
 nav {
+    margin: 0em;
+    padding: 0em;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -101,9 +104,15 @@ a:hover {
 
 #space {
     margin: 0em;
-    padding: 0em;
+    padding: 1em;
+    font-size: .2em;
     border-width: 0px;
-    height: 9em;
+    height: 100%;
+    color: white;
+    background-color: rgba(0, 0, 0, .7);
+}
+#intro {
+    text-align: left;
 }
 
 #schedule {
